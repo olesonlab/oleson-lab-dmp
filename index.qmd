@@ -1,0 +1,9 @@
+# Overview {.unnumbered}
+
+## Resources
+
+- [WA-Department-of-Agriculture / washi-dmp](https://github.com/WA-Department-of-Agriculture/washi-dmp)
+- [emLab Standard Operating Procedures](https://emlab-ucsb.github.io/SOP/)
+- [Data Management for Scientists by David LeBauer](https://www.youtube.com/watch?v=m29u6OniOGQ&t=3446s)
+- [The Documentation System](https://documentation.divio.com/)
+  - [What nobody tells you about documentation](https://www.youtube.com/watch?v=t4vKPhjcMZg)

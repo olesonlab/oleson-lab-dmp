@@ -1,0 +1,26 @@
+project:
+  type: book
+
+book:
+  title: "Oleson Ecological Economics Research Group"
+  author: "Alemarie Ceria"
+  date: "1/30/2024"
+  chapters:
+    - index.qmd
+    - project-management.qmd
+    - file-structure.qmd
+    - data.qmd
+    - code.qmd
+    - reports-and-publications.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: darkly
+  pdf:
+    documentclass: scrreprt
+
+
+
