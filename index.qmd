@@ -1,9 +1,31 @@
 # Overview {.unnumbered}
 
+
+## Chapter Outline
+
+@sec-project-management </br>
+@sec-file-structure </br>
+@sec-data </br>
+@sec-code </br>
+@sec-reports-and-publications </br>
+
 ## Resources
 
+DMP and SOP:
+
 - [WA-Department-of-Agriculture / washi-dmp](https://github.com/WA-Department-of-Agriculture/washi-dmp)
+  - [Washington Soil Health Initiative: State of the Soils Assessment Data Management Plan](https://wa-department-of-agriculture.github.io/washi-dmp/)
 - [emLab Standard Operating Procedures](https://emlab-ucsb.github.io/SOP/)
 - [Data Management for Scientists by David LeBauer](https://www.youtube.com/watch?v=m29u6OniOGQ&t=3446s)
+
+Documentation: 
+
 - [The Documentation System](https://documentation.divio.com/)
   - [What nobody tells you about documentation](https://www.youtube.com/watch?v=t4vKPhjcMZg)
+- [The University of Arizona Data Documentation Resource](https://data.library.arizona.edu/data-management/best-practices/data-documentation-readme-metadata)  
+- [genophenoenvo/neon-datasets/README.md Example](https://github.com/genophenoenvo/neon-datasets/blob/main/README.md)
+
+
+Videos:
+
+- [Reproducible Research YouTube Playlist](https://www.youtube.com/playlist?list=PLy_EwS4oOnoQzWYaWDO_x5t7O1RqHwuhw)

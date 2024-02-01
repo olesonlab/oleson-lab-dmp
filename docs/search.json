@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Oleson Ecological Economics Research Group",
+    "title": "Oleson Lab Data Analysis Workflow  and Reproducible Research Resource",
     "section": "",
     "text": "Overview",
     "crumbs": [
@@ -10,11 +10,21 @@
     ]
   },
   {
+    "objectID": "index.html#chapter-outline",
+    "href": "index.html#chapter-outline",
+    "title": "Oleson Lab Data Analysis Workflow  and Reproducible Research Resource",
+    "section": "Chapter Outline",
+    "text": "Chapter Outline\n1  Project Management  2  File Structure  3  Data  4  Code  5  Reports and Publications",
+    "crumbs": [
+      "Overview"
+    ]
+  },
+  {
     "objectID": "index.html#resources",
     "href": "index.html#resources",
-    "title": "Oleson Ecological Economics Research Group",
+    "title": "Oleson Lab Data Analysis Workflow  and Reproducible Research Resource",
     "section": "Resources",
-    "text": "Resources\n\nWA-Department-of-Agriculture / washi-dmp\nemLab Standard Operating Procedures\nData Management for Scientists by David LeBauer\nThe Documentation System\n\nWhat nobody tells you about documentation",
+    "text": "Resources\nDMP and SOP:\n\nWA-Department-of-Agriculture / washi-dmp\n\nWashington Soil Health Initiative: State of the Soils Assessment Data Management Plan\n\nemLab Standard Operating Procedures\nData Management for Scientists by David LeBauer\n\nDocumentation:\n\nThe Documentation System\n\nWhat nobody tells you about documentation\n\nThe University of Arizona Data Documentation Resource\n\ngenophenoenvo/neon-datasets/README.md Example\n\nVideos:\n\nReproducible Research YouTube Playlist",
     "crumbs": [
       "Overview"
     ]
@@ -32,11 +42,11 @@
   {
     "objectID": "file-structure.html",
     "href": "file-structure.html",
-    "title": "2  Summary",
+    "title": "2  File Structure",
     "section": "",
     "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>File Structure</span>"
     ]
   },
   {

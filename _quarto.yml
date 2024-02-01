@@ -1,10 +1,16 @@
 project:
   type: book
+  output-dir: docs
 
 book:
-  title: "Oleson Ecological Economics Research Group"
+  title: "Oleson Lab Data Analysis Workflow </br> and Reproducible Research Resource"
   author: "Alemarie Ceria"
   date: "1/30/2024"
+  
+  sidebar:
+    alignment: "center"
+    search: true
+  
   chapters:
     - index.qmd
     - project-management.qmd
@@ -19,8 +25,12 @@ bibliography: references.bib
 format:
   html:
     theme: darkly
+    code-copy: true
   pdf:
     documentclass: scrreprt
+    
+comments:
+  hypothesis: true
 
 
 
