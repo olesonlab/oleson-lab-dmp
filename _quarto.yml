@@ -1,36 +1,43 @@
 project:
   type: book
   output-dir: docs
+  preview:
+    port: 5240
+    browser: true
 
 book:
-  title: "Oleson Lab Data Analysis Workflow </br> and Reproducible Research Resource"
+  title: "Oleson Lab Reseach Project Resource </br>"
   author: "Alemarie Ceria"
   date: "1/30/2024"
-  
+
   sidebar:
     alignment: "center"
     search: true
-  
+
   chapters:
     - index.qmd
-    - project-management.qmd
-    - file-structure.qmd
+    - software-and-platforms.qmd
+    - project-organization.qmd
     - data.qmd
     - code.qmd
     - reports-and-publications.qmd
+    - more-resources.qmd
     - references.qmd
 
 bibliography: references.bib
 
+execute:
+  freeze: auto
+
 format:
   html:
-    theme: darkly
+    theme:
+      light: [litera, litera-light.scss]
+      dark: [litera, dark.scss]
     code-copy: true
+    link-external-newwindow: true
   pdf:
     documentclass: scrreprt
-    
+
 comments:
   hypothesis: true
-
-
-
