@@ -2,9 +2,6 @@
 
 This resource seeks to provide you with the following:
 
-1.  A project directory structure template which can be customized according to project needs
-2.  A list of tools
-
 ::: {.callout title="Interactive Code Annotations"}
 Throughout this resource, hover over the numbered annotations to the right of code chunks to reveal detailed explanations and comments about the code.
 :::
