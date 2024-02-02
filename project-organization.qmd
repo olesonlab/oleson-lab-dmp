@@ -42,9 +42,11 @@ Best practices when naming directories and files:
 |      |                   |         |
 |      |                   |         |
 
-## Shared Google Drive
+## Directories
 
-### Example Project Directory Structure
+### Local - Shared Google Drive
+
+#### Example Project Directory Structure
 
 ``` {.python .code-overflow-wrap}
 📦/g/path/to/example-project-directory # <1>
@@ -77,7 +79,7 @@ Best practices when naming directories and files:
 12. Compiles literature reviews, reference materials, and bibliographies.
 13. Provides an overview of the project directory, explaining the structure and contents of the folders/files.
 
-### Create New Project Directory
+#### Create New Project Directory
 
 The following code creates a directory for your project within the `current-projects/` directory in the `Oleson Lab/` Shared Google Drive by making a copy of an existing template.
 
@@ -124,9 +126,9 @@ echo "Completed copying." # <8>
 7.  Copies everything within the `new-project-template/`directory into the `current-projects/` directory and renames it accordingly.
 8.  Confirms that the script ran successfully.
 
-## GitHub Repository
+### Remote - GitHub Repository
 
-### Example GitHub Repository Structure
+#### Example GitHub Repository Structure
 
 ``` {.python .code-overflow-wrap}
 📦/g/path/to/example-project # <1>       
