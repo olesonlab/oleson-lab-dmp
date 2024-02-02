@@ -22,7 +22,7 @@ book:
     - code.qmd
     - reports-and-publications.qmd
     - more-resources.qmd
-    - references.qmd
+    # - references.qmd
 
 bibliography: references.bib
 

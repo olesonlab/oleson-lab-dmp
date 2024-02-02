@@ -193,12 +193,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text">More Resources</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">References</span></a>
-  </div>
-</li>
     </ul>
     </div>
 </nav>
@@ -215,6 +209,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#local---shared-google-drive" id="toc-local---shared-google-drive" class="nav-link" data-scroll-target="#local---shared-google-drive">Local - Shared Google Drive</a></li>
   <li><a href="#remote---github-repository" id="toc-remote---github-repository" class="nav-link" data-scroll-target="#remote---github-repository">Remote - GitHub Repository</a></li>
   </ul></li>
+  <li><a href="#acknowledgements" id="toc-acknowledgements" class="nav-link" data-scroll-target="#acknowledgements">Acknowledgements</a></li>
   </ul>
 </nav>
     </div>
@@ -243,46 +238,43 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="naming-conventions" class="level2">
 <h2 class="anchored" data-anchor-id="naming-conventions">Naming Conventions</h2>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/ES1LTlnpLMk" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<p><strong>TL-DR</strong>:</p>
-<p>Best practices when naming directories and files:</p>
+<p><strong>TL;DR</strong>:</p>
+<p><strong>File and Directory Naming Best Practices:</strong></p>
 <ol type="1">
-<li>Make it machine readable
+<li><strong>Machine Readability:</strong>
 <ul>
-<li>Use globbing to isolate and find files that match a simple pattern using regular expressions in a scripting language
-<ul>
-<li>Eg., The following bash code will find all file names that start with <code>report-2020-</code> and ends with <code>.txt</code> <code>report-2020-*.txt</code></li>
+<li>Use globbing with regular expressions for pattern matching in scripting languages (e.g., Bash).</li>
+<li>Example: <strong><code>report-2020-*.txt</code></strong> to find files matching a pattern.</li>
 </ul></li>
-<li>No spaces or accented characters</li>
-<li>No punctuation other than hyphens (-) and underscores (_)</li>
-<li>Use lowercase only</li>
-</ul></li>
-<li>Make it human readable
+<li><strong>Naming Rules:</strong>
 <ul>
-<li>Use highly informative slugs (e.g., <code>01_collect-cdec-snow-data.R</code>)
-<ul>
-<li>Should be descriptive and should accurately reflect the content</li>
-<li>Should be concise</li>
-<li>Use plain language, but still readable and understandable</li>
-<li>Use hyphenation for spaces</li>
-<li>Use underscores to separate metadata that needs to be parsed or processed in a scripting language using regular expressions</li>
-<li>Avoid special characters</li>
+<li>Avoid spaces and accented characters.</li>
+<li>Use only hyphens (-) and underscores (_) for punctuation.</li>
+<li>Use lowercase letters exclusively.</li>
 </ul></li>
-</ul></li>
-<li>Sort it in a useful way
+<li><strong>Human Readability:</strong>
 <ul>
-<li>Put something numeric first</li>
-<li>Logical sorting
-<ul>
-<li>Apply left padding (e.g., 01, 02, etc.) to single digit numbers in file names to maintain their sequential order</li>
-<li>Use when you have a predefined sequence or steps in a process (e.g., stages in a workflow)</li>
+<li>Employ highly informative slugs for filenames (e.g., <strong><code>01_collect-cdec-snow-data.R</code></strong>).</li>
+<li>Ensure slugs are descriptive, concise, and in plain language.</li>
+<li>Use hyphens to replace spaces.</li>
 </ul></li>
-<li>Chronological sorting
+<li><strong>Metadata Separation:</strong>
 <ul>
-<li>Follow the <a href="https://www.iso.org/iso-8601-date-and-time-format.html">ISO 8601</a> standard when formatting dates: YYYY-MM-DD (e.g., <code>2020-12-01_draft.docx</code>)</li>
-<li>Use when the timeline of creation, modification, or relevance is important (e.g., In projects with regular updates or when you need to track progress or changes over time where the most recent date indicates the latest version)</li>
+<li>Use underscores to separate metadata for parsing in scripting languages.</li>
+<li>Example: <strong><code>01_report-metadata.txt</code></strong> for clear metadata separation.</li>
 </ul></li>
+<li><strong>Logical Sorting:</strong>
+<ul>
+<li>Apply left padding (e.g., 01, 02) for sequential order.</li>
+<li>Useful for predefined sequences or steps in a process.</li>
+</ul></li>
+<li><strong>Chronological Sorting:</strong>
+<ul>
+<li>Follow the <a href="https://www.iso.org/iso-8601-date-and-time-format.html">ISO 8601</a> date format (YYYY-MM-DD), e.g., <strong><code>2020-12-01_draft.docx</code></strong>.</li>
+<li>Suitable for tracking updates/progress or changes over time.</li>
 </ul></li>
 </ol>
+<p>These practices ensure both machines and humans can easily work with your files and directories, promoting organization and clarity in your projects.</p>
 <table class="table">
 <thead>
 <tr class="header">
@@ -390,7 +382,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>The following code creates a directory for your project within the <code>current-projects/</code> directory in the <code>Oleson Lab/</code> Shared Google Drive by making a copy of an existing template.</p>
 <p>To execute this code chunk, please do the following:</p>
 <ol type="1">
-<li>Ensure you have <a href="https://www.google.com/drive/download/">Google Drive for Desktop</a> software downloaded, you are signed in, and are able to see the <code>Oleson Lab/</code> directory in your <code>Shared Drives/</code> directory</li>
+<li>Ensure you have <a href="https://olesonlab.github.io/oleson-lab_research-project-resource/software-and-platforms.html#sec-download-sign-up-links">Google Drive for Desktop</a> software downloaded, you are signed in, and are able to see the <code>Oleson Lab/</code> directory in your <code>Shared Drives/</code> directory</li>
 <li>Change <code>#| eval: false</code> to <code>#| eval: true</code></li>
 <li>Input your desired project name in the code <code>project_name="example-project"</code>.</li>
 </ol>
@@ -556,10 +548,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span data-code-cell="annotated-cell-3" data-code-lines="18" data-code-annotation="18">Output of <code>README.qmd</code> used to be displayed on GitHub Repository.</span>
 </dd>
 </dl>
-
-
 </section>
 </section>
+</section>
+<section id="acknowledgements" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledgements">Acknowledgements</h2>
+<p>We crafted our directory structures by drawing from a blend of best practices as outlined in the Environmental Markets Lab’s (emLab) <a href="https://emlab-ucsb.github.io/SOP/2-file-structure.html#file-structure">file structure</a> guide and the valuable insights shared in the Riffomonas Project’s <a href="https://www.youtube.com/watch?v=olu821RTQA8">project organization tutorial</a>.</p>
+
+
 </section>
 
 </main> <!-- /main -->

@@ -9,32 +9,32 @@ engine: knitr
 
 {{< video https://www.youtube.com/watch?v=ES1LTlnpLMk&list=PLy_EwS4oOnoQzWYaWDO_x5t7O1RqHwuhw&index=5&pp=gAQBiAQB >}}
 
-**TL-DR**:
+**TL;DR**:
 
-Best practices when naming directories and files:
+**File and Directory Naming Best Practices:**
 
-1.  Make it machine readable
-    -   Use globbing to isolate and find files that match a simple pattern using regular expressions in a scripting language
-        -   Eg., The following bash code will find all file names that start with `report-2020-` and ends with `.txt` `report-2020-*.txt`
-    -   No spaces or accented characters
-    -   No punctuation other than hyphens (-) and underscores (\_)
-    -   Use lowercase only
-2.  Make it human readable
-    -   Use highly informative slugs (e.g., `01_collect-cdec-snow-data.R`)
-        -   Should be descriptive and should accurately reflect the content
-        -   Should be concise
-        -   Use plain language, but still readable and understandable
-        -   Use hyphenation for spaces
-        -   Use underscores to separate metadata that needs to be parsed or processed in a scripting language using regular expressions
-        -   Avoid special characters
-3.  Sort it in a useful way
-    -   Put something numeric first
-    -   Logical sorting
-        -   Apply left padding (e.g., 01, 02, etc.) to single digit numbers in file names to maintain their sequential order
-        -   Use when you have a predefined sequence or steps in a process (e.g., stages in a workflow)
-    -   Chronological sorting
-        -   Follow the [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) standard when formatting dates: YYYY-MM-DD (e.g., `2020-12-01_draft.docx`)
-        -   Use when the timeline of creation, modification, or relevance is important (e.g., In projects with regular updates or when you need to track progress or changes over time where the most recent date indicates the latest version)
+1.  **Machine Readability:**
+    -   Use globbing with regular expressions for pattern matching in scripting languages (e.g., Bash).
+    -   Example: **`report-2020-*.txt`** to find files matching a pattern.
+2.  **Naming Rules:**
+    -   Avoid spaces and accented characters.
+    -   Use only hyphens (-) and underscores (_) for punctuation.
+    -   Use lowercase letters exclusively.
+3.  **Human Readability:**
+    -   Employ highly informative slugs for filenames (e.g., **`01_collect-cdec-snow-data.R`**).
+    -   Ensure slugs are descriptive, concise, and in plain language.
+    -   Use hyphens to replace spaces.
+4.  **Metadata Separation:**
+    -   Use underscores to separate metadata for parsing in scripting languages.
+    -   Example: **`01_report-metadata.txt`** for clear metadata separation.
+5.  **Logical Sorting:**
+    -   Apply left padding (e.g., 01, 02) for sequential order.
+    -   Useful for predefined sequences or steps in a process.
+6.  **Chronological Sorting:**
+    -   Follow the [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) date format (YYYY-MM-DD), e.g., **`2020-12-01_draft.docx`**.
+    -   Suitable for tracking updates/progress or changes over time.
+
+These practices ensure both machines and humans can easily work with your files and directories, promoting organization and clarity in your projects.
 
 | Type | Naming Convention | Example |
 |------|-------------------|---------|
@@ -85,7 +85,7 @@ The following code creates a directory for your project within the `current-proj
 
 To execute this code chunk, please do the following:
 
-1.  Ensure you have [Google Drive for Desktop](https://www.google.com/drive/download/) software downloaded, you are signed in, and are able to see the `Oleson Lab/` directory in your `Shared Drives/` directory
+1.  Ensure you have [Google Drive for Desktop](https://olesonlab.github.io/oleson-lab_research-project-resource/software-and-platforms.html#sec-download-sign-up-links) software downloaded, you are signed in, and are able to see the `Oleson Lab/` directory in your `Shared Drives/` directory
 2.  Change `#| eval: false` to `#| eval: true`
 3.  Input your desired project name in the code `project_name="example-project"`.
 
@@ -169,3 +169,7 @@ echo "Completed copying." # <8>
 16. Lists files and directories to be ignored by version control, keeping the repository clean and relevant.
 17. Provides a Quarto-rendered, detailed project overview and instructions, enhancing comprehension and usage.
 18. Output of `README.qmd` used to be displayed on GitHub Repository.
+
+## Acknowledgements
+
+We crafted our directory structures by drawing from a blend of best practices as outlined in the Environmental Markets Lab's (emLab) [file structure](https://emlab-ucsb.github.io/SOP/2-file-structure.html#file-structure) guide and the valuable insights shared in the Riffomonas Project's [project organization tutorial](https://www.youtube.com/watch?v=olu821RTQA8).

@@ -1,0 +1,92 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Oleson Lab Reseach Project Resource ",
+    "section": "",
+    "text": "Overview\nThis resource seeks to provide you with the following:\n\n\n\n\n\n\nInteractive Code Annotations\n\n\n\nThroughout this resource, hover over the numbered annotations to the right of code chunks to reveal detailed explanations and comments about the code.",
+    "crumbs": [
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "software-and-platforms.html",
+    "href": "software-and-platforms.html",
+    "title": "Software and Platforms",
+    "section": "",
+    "text": "Download/Sign Up Links",
+    "crumbs": [
+      "Software and Platforms"
+    ]
+  },
+  {
+    "objectID": "software-and-platforms.html#sec-download-sign-up-links",
+    "href": "software-and-platforms.html#sec-download-sign-up-links",
+    "title": "Software and Platforms",
+    "section": "",
+    "text": "Software/Platform\nPurpose\nDownload/Sign Up Link\n\n\n\n\nSlack\nEnhances team communication and project coordination\nWindows Link\nMac Link\n\n\nGoogle Drive for Desktop\nStreamlines file storage, sharing, and collaboration\nLink\n\n\nR\nProvides tools for statistical analysis and data visualization\nLink\n\n\nRStudio\nFacilitates R coding, debugging, and project organization\nLink\n\n\nGit\nManages version control for tracking and merging changes in code and documents\nLink\n\n\nGitHub\nHosts and manages Git repositories, facilitating collaboration and code sharing\nLink\n\n\nZotero\nOrganizes and cites research sources consistently\nLink",
+    "crumbs": [
+      "Software and Platforms"
+    ]
+  },
+  {
+    "objectID": "software-and-platforms.html#setup-instructions",
+    "href": "software-and-platforms.html#setup-instructions",
+    "title": "Software and Platforms",
+    "section": "Setup Instructions",
+    "text": "Setup Instructions",
+    "crumbs": [
+      "Software and Platforms"
+    ]
+  },
+  {
+    "objectID": "project-organization.html",
+    "href": "project-organization.html",
+    "title": "Project Organization",
+    "section": "",
+    "text": "Naming Conventions\nTL;DR:\nFile and Directory Naming Best Practices:\nThese practices ensure both machines and humans can easily work with your files and directories, promoting organization and clarity in your projects.",
+    "crumbs": [
+      "Project Organization"
+    ]
+  },
+  {
+    "objectID": "project-organization.html#naming-conventions",
+    "href": "project-organization.html#naming-conventions",
+    "title": "Project Organization",
+    "section": "",
+    "text": "Machine Readability:\n\nUse globbing with regular expressions for pattern matching in scripting languages (e.g., Bash).\nExample: report-2020-*.txt to find files matching a pattern.\n\nNaming Rules:\n\nAvoid spaces and accented characters.\nUse only hyphens (-) and underscores (_) for punctuation.\nUse lowercase letters exclusively.\n\nHuman Readability:\n\nEmploy highly informative slugs for filenames (e.g., 01_collect-cdec-snow-data.R).\nEnsure slugs are descriptive, concise, and in plain language.\nUse hyphens to replace spaces.\n\nMetadata Separation:\n\nUse underscores to separate metadata for parsing in scripting languages.\nExample: 01_report-metadata.txt for clear metadata separation.\n\nLogical Sorting:\n\nApply left padding (e.g., 01, 02) for sequential order.\nUseful for predefined sequences or steps in a process.\n\nChronological Sorting:\n\nFollow the ISO 8601 date format (YYYY-MM-DD), e.g., 2020-12-01_draft.docx.\nSuitable for tracking updates/progress or changes over time.\n\n\n\n\n\n\nType\nNaming Convention\nExample",
+    "crumbs": [
+      "Project Organization"
+    ]
+  },
+  {
+    "objectID": "project-organization.html#directories",
+    "href": "project-organization.html#directories",
+    "title": "Project Organization",
+    "section": "Directories",
+    "text": "Directories\n\nLocal - Shared Google Drive\n\nExample Project Directory Structure\n1📦/g/path/to/example-project-directory\n2 ┣ 📂deliverables\n3 ┃ ┗ 📂papers\n4 ┣ 📂github-repo\n ┃ ┗ 📂example-project-github-repo\n5 ┣ 📂meetings-and-events\n6 ┃ ┣ 📂meeting-notes\n7 ┃ ┣ 📂agendas\n8 ┃ ┗ 📂workshop-or-event-planning\n9 ┣ 📂presentations\n10 ┣ 📂project-materials\n11 ┃ ┣ 📂methods-drafts\n12 ┃ ┗ 📂lit-review\n13 ┗ 📜README.md\n\n1\n\nRoot directory housing all materials and documentation for the research project.\n\n2\n\nContains final outputs like reports, papers, or products resulting from the project.\n\n3\n\nStores final versions and supplementary materials for academic papers or reports.\n\n4\n\nSpecific GitHub repository directory for collaborative development and code sharing. Only example-project-github-repo/ will be pushed to GitHub.\n\n5\n\nOrganizes documentation and planning materials for meetings and events related to the project.\n\n6\n\nArchives notes and decisions from project meetings.\n\n7\n\nPrepares and stores agendas for upcoming meetings to structure discussions.\n\n8\n\nHolds planning documents, schedules, and resources for workshops or project-related events.\n\n9\n\nContains slides, speaker notes, and related materials for presentations about the project.\n\n10\n\nStores various project-related documents not categorized elsewhere.\n\n11\n\nKeeps drafts and notes on methodological approaches and procedures.\n\n12\n\nCompiles literature reviews, reference materials, and bibliographies.\n\n13\n\nProvides an overview of the project directory, explaining the structure and contents of the folders/files.\n\n\n\n\nCreate New Project Directory\nThe following code creates a directory for your project within the current-projects/ directory in the Oleson Lab/ Shared Google Drive by making a copy of an existing template.\nTo execute this code chunk, please do the following:\n\nEnsure you have Google Drive for Desktop software downloaded, you are signed in, and are able to see the Oleson Lab/ directory in your Shared Drives/ directory\nChange #| eval: false to #| eval: true\nInput your desired project name in the code project_name=\"example-project\".\n\n\n```{bash}\n#| label: create-new-project-directory\n#| code-overflow: wrap\n1#| eval: false\n\n2echo \"Starting script...\"\n\n3cd \"/g/Shared drives/Oleson Lab/projects/project-management-resources\"\n\n4new_project_template=\"/g/Shared drives/Oleson Lab/projects/project-management-resources/new-project-template\"\n\nproject_name=\"example-project\"\n\n5new_current_project_directory=\"/g/Shared drives/Oleson Lab/projects/current-projects/$project_name\"\n\n# Check if the directory already exists\n6if [ -d \"$new_current_project_directory\" ]; then\n    echo \"Error: A project with the name '$project_name' already exists. Please choose a different name.\"\n    exit 1\nfi\n\n# Copy the new-project-template directory to the new project directory\n7cp -r \"$new_project_template\" \"$new_current_project_directory\"\n\n8echo \"Completed copying.\"\n```\n\n\n1\n\nTo run code chunk, set false to true.\n\n2\n\nConfirms that the script is initiated.\n\n3\n\nNavigates to directory containing the new project template.\n\n4\n\nDefines a variable new_project_template which stores the new-project-template/ directory file path.\n\n5\n\nSets project_name to desired project name and constructs a path for the new project in the current-projects directory. Replace [insert-project-name].\n\n6\n\nChecks to see whether or not the directory exists within the current-projects/ directory and if so, prompts you to choose another name.\n\n7\n\nCopies everything within the new-project-template/directory into the current-projects/ directory and renames it accordingly.\n\n8\n\nConfirms that the script ran successfully.\n\n\n\n\n\n\n\nRemote - GitHub Repository\n\nExample GitHub Repository Structure\n1📦/g/path/to/example-project\n2 ┣ 📂outputs\n3 ┃ ┣ 📂tables\n4 ┃ ┗ 📂plots\n5 ┣ 📂documentation\n6 ┣ 📂code\n7 ┃ ┣ 📂functions\n8 ┃ ┗ 📂models\n9 ┣ 📂data\n10 ┃ ┣ 📂exploratory\n11 ┃ ┣ 📂raw\n12 ┃ ┣ 📂tidied\n13 ┃ ┗ 📂output\n14 ┣ 📜LICENSE\n15 ┣ 📜.gitignore\n16 ┣ 📜example-project.Rproj\n17 ┣ 📜README.qmd\n18 ┗ 📜README.md\n\n1\n\nServes as the root directory, encapsulating all project components for easy management and navigation.\n\n2\n\nContains generated files like tables and plots, separating results from the input data and code.\n\n3\n\nStores tabular results and data summaries.\n\n4\n\nHolds visualizations and graphs generated by the analysis.\n\n5\n\nStores project documentation, reports, and notes, centralizing information for reference and clarity.\n\n6\n\nContains all the scripts and code used in the project, promoting modularity and code reuse.\n\n7\n\nStores custom functions to ensure code modularity and readability.\n\n8\n\nHolds existing and output models.\n\n9\n\nActs as the main repository for all datasets, organized to reflect different stages of data processing.\n\n10\n\nContains initial explorations and analyses, fostering a sandbox environment for preliminary insights. (Will not be pushed to GitHub)\n\n11\n\nStores unmodified raw data, preserving the original datasets for reproducibility and reference.\n\n12\n\nHolds processed and cleaned data, ready for analysis, ensuring consistency and reliability. (Will not be pushed to GitHub)\n\n13\n\nStores the final dataset used for analysis.\n\n14\n\nHolds processed and cleaned data, ready for analysis, ensuring consistency and reliability.\n\n15\n\nSpecifies the terms under which the project can be used or distributed, clarifying legal and usage aspects.\n\n16\n\nLists files and directories to be ignored by version control, keeping the repository clean and relevant.\n\n17\n\nProvides a Quarto-rendered, detailed project overview and instructions, enhancing comprehension and usage.\n\n18\n\nOutput of README.qmd used to be displayed on GitHub Repository.",
+    "crumbs": [
+      "Project Organization"
+    ]
+  },
+  {
+    "objectID": "project-organization.html#acknowledgements",
+    "href": "project-organization.html#acknowledgements",
+    "title": "Project Organization",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nWe crafted our directory structures by drawing from a blend of best practices as outlined in the Environmental Markets Lab’s (emLab) file structure guide and the valuable insights shared in the Riffomonas Project’s project organization tutorial.",
+    "crumbs": [
+      "Project Organization"
+    ]
+  },
+  {
+    "objectID": "more-resources.html",
+    "href": "more-resources.html",
+    "title": "More Resources",
+    "section": "",
+    "text": "DMP and SOP:\n\nWA-Department-of-Agriculture / washi-dmp\n\nWashington Soil Health Initiative: State of the Soils Assessment Data Management Plan\n\nemLab Standard Operating Procedures\nData Management for Scientists by David LeBauer\n\nDocumentation:\n\nThe Documentation System\n\nWhat nobody tells you about documentation\n\nThe University of Arizona Data Documentation Resource\n\ngenophenoenvo/neon-datasets/README.md Example\n\nVideos:\n\nReproducible Research YouTube Playlist",
+    "crumbs": [
+      "More Resources"
+    ]
+  }
+]
