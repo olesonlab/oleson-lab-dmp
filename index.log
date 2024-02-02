@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.2)  2 FEB 2024 05:18
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.2)  2 FEB 2024 05:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1149,7 +1149,7 @@ No file index.toc.
 ] [3
 
 ]
-Overfull \hbox (37.17445pt too wide) in paragraph at lines 298--299
+Overfull \hbox (37.17445pt too wide) in paragraph at lines 288--289
 []\TU/lmr/m/n/10.95 Software/Platform  
  []
 
@@ -1157,28 +1157,28 @@ Overfull \hbox (37.17445pt too wide) in paragraph at lines 298--299
 
 ]
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.665pt on input line 344.
+(Font)              scaled to size 7.665pt on input line 334.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.475pt on input line 344.
+(Font)              scaled to size 5.475pt on input line 334.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.95099pt on input line 344.
+(Font)              scaled to size 10.95099pt on input line 334.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.66568pt on input line 344.
+(Font)              scaled to size 7.66568pt on input line 334.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.4755pt on input line 344.
+(Font)              scaled to size 5.4755pt on input line 334.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 10.94882pt on input line 344.
+(Font)              scaled to size 10.94882pt on input line 334.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.66417pt on input line 344.
+(Font)              scaled to size 7.66417pt on input line 334.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.47441pt on input line 344.
+(Font)              scaled to size 5.47441pt on input line 334.
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--345
+Underfull \hbox (badness 10000) in paragraph at lines 334--335
 [][]$[][][][][] [] [] [] [][][] [] [][][][][][][] [] [][][] [] [][][][][] [] [] [] [][][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 365--368
+Underfull \hbox (badness 1281) in paragraph at lines 355--358
 []\TU/lmr/m/n/10.95 Eg., The following bash code will find all file names that start with
  []
 
@@ -1221,9 +1221,9 @@ Missing character: There is no ┗ (U+2517) in font [lmmono10-regular]:!
 Missing character: There is no 📜 (U+1F4DC) in font [lmmono10-regular]:!
 [6] [7]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 582.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 577.
 
-Overfull \hbox (8.80539pt too wide) in paragraph at lines 599--602
+Overfull \hbox (8.80539pt too wide) in paragraph at lines 594--597
 []\TU/lmr/m/n/10.95 Copies everything within the \TU/lmtt/m/n/10.95 new-project-template/\TU/lmr/m/n/10.95 directory into the \TU/lmtt/m/n/10.95 current-projects/
  []
 
@@ -1277,7 +1277,7 @@ Missing character: There is no 📜 (U+1F4DC) in font [lmmono10-regular]:!
 ] [12
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 757--759
+Underfull \hbox (badness 10000) in paragraph at lines 752--754
 
  []
 
@@ -1291,15 +1291,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.781 \end{CSLReferences}
+l.776 \end{CSLReferences}
                           
 Here is how much of TeX's memory you used:
- 39032 strings out of 476858
- 803474 string characters out of 5802531
- 1937630 words of memory out of 5000000
- 60397 multiletter control sequences out of 15000+600000
+ 39040 strings out of 476858
+ 803890 string characters out of 5802531
+ 1938630 words of memory out of 5000000
+ 60405 multiletter control sequences out of 15000+600000
  564548 words of font info for 92 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 108i,8n,120p,10900b,911s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,8n,120p,10900b,915s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on index.pdf (13 pages).
