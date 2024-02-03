@@ -1,4 +1,4 @@
-# Overview {.unnumbered}
+# {{< fa clipboard-list >}} Overview {.unnumbered}
 
 This resource seeks to provide you with the following:
 

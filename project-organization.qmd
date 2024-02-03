@@ -3,7 +3,7 @@ code-annotations: hover
 engine: knitr
 ---
 
-# Project Organization {.unnumbered}
+# {{< fa folder-tree >}} Project Organization {.unnumbered}
 
 ## Naming Conventions
 

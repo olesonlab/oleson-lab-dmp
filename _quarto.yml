@@ -35,6 +35,8 @@ format:
       light: [litera, litera-light.scss]
       dark: [litera, dark.scss]
     code-copy: true
+    toc: true
+    toc-title: "Contents"
     link-external-newwindow: true
   pdf:
     documentclass: scrreprt

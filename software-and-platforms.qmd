@@ -1,4 +1,4 @@
-# Software and Platforms {#sec-software-and-platforms .unnumbered}
+# {{< fa gears >}} Software and Platforms {#sec-software-and-platforms .unnumbered}
 
 ## Download/Sign Up Links {#sec-download-sign-up-links}
 

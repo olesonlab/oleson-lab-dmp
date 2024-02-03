@@ -1,4 +1,4 @@
-# More Resources {#sec-more-resources .unnumbered}
+# {{< fa users-gear >}} More Resources {#sec-more-resources .unnumbered}
 
 DMP and SOP:
 

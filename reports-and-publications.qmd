@@ -1,1 +1,1 @@
-# Reports and Publications {#sec-reports-and-publications .unnumbered}
+# {{< fa book-open >}} Reports and Publications {#sec-reports-and-publications .unnumbered}
